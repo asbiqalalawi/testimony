@@ -64,7 +64,7 @@ class _TestimonyCardState extends State<TestimonyCard> {
                     mainAxisAlignment: MainAxisAlignment.end,
                     children: [
                       Text(
-                        expand ? 'Hide' : 'More',
+                        expand ? AppLocalizations.of(context)!.hide : AppLocalizations.of(context)!.more,
                         style: const TextStyle(
                           color: Colors.grey,
                           fontSize: 12,
